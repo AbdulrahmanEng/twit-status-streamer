@@ -1,0 +1,24 @@
+{
+  "name": "twit-term-streamer",
+  "version": "1.0.0",
+  "description": "Streams tweets that contain a specified term",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "npm test && nodemon index.js"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "Abdulrahman",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
